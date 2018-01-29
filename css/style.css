@@ -1,57 +1,6 @@
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/*This is main CSS file that contains custom style rules used in this template*/
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* Template Name: omni*/
-/* Version: 1.0 Initial Release*/
-/* Build Date: 25-02-2015*/
-/* Author: Unbranded*/
-/* Website: 
-/* Copyright: (C) 2015 */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
 
-/*--------------------------------------------------------*/
-/* TABLE OF CONTENTS: */
-/*--------------------------------------------------------*/
-/* 01 - FONTS */
-/* 02 - LOADER */
-/* 03 - RESET STYLES */
-/* 04 - GLOBAL SETTINGS */
-/* 05 - HEADER */
-/* 06 - FOOTER */
-/* 07 - SIMPLE BLOCK STRUCTURE */
-/* 08 - BLOCK "TYPE 1" */
-/* 09 - BLOCK "TYPE 2" */
-/* 10 - BLOCK "TYPE 3" */
-/* 11 - BLOCK "TYPE 4" */
-/* 12 - BLOCK "TYPE 5" */
-/* 13 - BLOCK "TYPE 6" */
-/* 14 - BLOCK "TYPE 7" */
-/* 15 - BLOCK "TYPE 8" (index style 2) */
-/* 16 - BLOCK "TYPE 9" (index style 2) */
-/* 17 - BLOCK "TYPE 10" (index style 2) */
-/* 18 - BLOCK "TYPE 11" (index style 2) */
-/* 19 - BLOCK "TYPE 12" (index style 2) */
-/* 20 - BLOCK "TYPE 14" (index style 2) */
-/* 21 - BLOCK "TYPE 15" (index style 2) */
-/* 22 - BLOCK "TYPE 16" (index style 2) */
-/* 23 - BLOCK "TYPE 17" (index style 2) */
-/* 24 - BLOCK "TYPE 18" (index style 2) */
-/* 25 - BLOCK "TYPE 19" (index style 2) */
-/* 26 - BLOG */
-/* 27 - POPUP "VIDEO" */
-/* 28 - POPUP "GALLERY" */
-/* 29 - TYPOGRAPHY */
-/* 30 - THEME CONFIG */
-/* 31 - WELCOME PAGE */
-/* 32 - TEASER */
-/* 33 - PAGE "404" */
+/* FONTS */
 
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-
-
-/*-------------------------------------------------------------------------------------------------------------------------------*/
-/* 01 - FONTS */
-/*-------------------------------------------------------------------------------------------------------------------------------*/
 @font-face {
     font-family: 'black';
     src: url('../fonts/proximanova-black-webfont.eot');
@@ -241,7 +190,7 @@ video.bgvid {position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 header{position: fixed; left: 0px; top: 0px; width: 100%; z-index: 11; -webkit-backface-visibility: hidden;}
 #logo{position: relative; float: left; margin-left: 50px; margin-top: 42px;}
-#logo img{position: relative; float: left;}
+#logo img{position: relative; float: left; width: 200px; height: 100px;}
 #logo img.act{position: absolute; left: 0px; top: 0px; opacity:0;}
 nav{position: relative; float: right; padding-right: 45px;}
 nav a{position: relative; float: left; color: #fff; font-size: 13px; text-transform: uppercase; height: 39px; line-height: 39px; padding:0px 15px; margin: 30px 5px 0px 5px;}
@@ -259,8 +208,8 @@ nav ul ul li a{height: 0px; font-size: 0px; line-height: 0px; padding: 0px; marg
 nav ul ul li a:after{display: none;}
 nav .submeny:hover ul li a{height: 39px; font-size: 13px; line-height: 39px;}
 nav .submeny:hover .submeny-top{background:#fbc011; color: #fff;}
-header.act{background:#fff; box-shadow: 0px 1px 5px rgba(0,0,0,0.15);}
-header.act #logo{background:#fff; margin-top: 27px;}
+header.act{background:#000; box-shadow: 0px 1px 5px rgba(0,0,0,0.15);}
+header.act #logo{background: transparent; margin-top: -10px;}
 header.act #logo img{opacity:0;}
 header.act #logo img.act{opacity:1;}
 header.act nav a{color:#777777; margin-top: 15px; margin-bottom: 15px;}

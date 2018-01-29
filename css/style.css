@@ -587,7 +587,7 @@ footer{background: #1b1b1b; position: relative;}
 .little-img-text-entry:nth-child(3n+1){clear: both;}
 /**/
 .page-tagline{text-align: center; margin-bottom: 60px; padding-top: 25px;}
-.page-tagline .title{font-family: 'black'; font-size: 46px; color: #222; line-height: 40px; text-transform: uppercase; padding-bottom: 40px; position: relative;}
+.page-tagline .title{font-family: 'black'; font-size: 46px; color: #f2f2f2 ; line-height: 40px; text-transform: uppercase; padding-bottom: 40px; position: relative;}
 .page-tagline .title:last-child{padding-bottom: 0;}
 .page-tagline .title:before{width: 30px; height: 5px; background: #fbc011; position: absolute; left: 50%; margin-left: -15px; top: -25px; content: "";}
 .page-tagline .description{font-size: 16px; line-height: 28px; color: #777; font-family: 'regular'; margin-bottom: 40px;}

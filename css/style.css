@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6{margin: 0px !important;}
 .titel-top{position: relative;}
 .titel-top:after{position: absolute; left: 50%; top: -25px; content:""; width: 30px; margin-left: -15px; height: 5px; background: #fbc011;}
 .h1,.h2,.h4{font-family: 'black', sans-serif; text-transform: uppercase; color: #222222;}
-.h1{font-size: 56px; margin-bottom: 40px !important;}
+.h1{font-size: 60px; margin-bottom: 40px !important;}
 .h2{font-size: 46px; line-height: 46px; margin-bottom: 40px !important;}
 .h3{font-size: 30px; font-family: 'regular', sans-serif; font-weight: normal; text-transform: uppercase; color: #222222;}
 .h4{font-size: 20px; margin-bottom: 20px !important;}

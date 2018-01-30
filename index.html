@@ -201,7 +201,37 @@
                         </div>
                         <div class="col-md-4 col-md-offset-7 col-sm-12 col-sm-offset-0 wow fadeInRight" data-wow-delay="0.3s">
                             <article class="normall">
-                                <h2 class="h2 titel-left">Welcome</h2>
+				<!-- animated text-->
+				    <div class="stage">
+  <div class="wrapper">
+    <div class="slash"></div>
+    <div class="sides">
+      <div class="side"></div>
+      <div class="side"></div>
+      <div class="side"></div>
+      <div class="side"></div>
+    </div>
+    <div class="text">
+      <div class="text--backing">Welcome</div>
+      <div class="text--left">
+        <div class="inner">Welcome</div>
+      </div>
+      <div class="text--right">
+        <div class="inner">Welcome</div>
+      </div>
+    </div>
+  </div>
+</div>
+				    <!-- enf of animated text-->
+				    
+				    
+				    
+                                <!--<h2 class="h2 titel-left">Welcome</h2> Atkomentuok-->
+				    
+				    
+				    
+				    
+				    
 				     <h1 class="h1"><span style="color: #ffd400">To ironFights </span></h1>    
                                 <p> Pretium scelerisque lobortis. Aenean venenatis suscipit vehicula. Phasellus condimentum laoreet nibh at consectetur. Suspendisse potenti mauris pretium. Cras sollicitudin lorem risus, sed ultrices odio aliquam at. Mauris posuere diam at enim malesuada, ac malesuada erat auctor. Ut porta mattis tellus eu sagittis.</p>
                                 <a href="#" class="button"><span>learn more</span></a>
@@ -775,5 +805,45 @@
             setInterval(function(){setTimer();}, 1000);
         });
     </script>
+	
+	<!-- animated text script-->
+	<script>
+		var curry = function curry(f) {
+  return function () {
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {if (window.CP.shouldStopExecution(1)){break;}
+      args[_key] = arguments[_key];
+    }
+window.CP.exitedLoop(1);
+
+
+    return args.length >= f.length ? f.apply(undefined, args) : curry(f.bind.apply(f, [f].concat(args)));
+  };
+};
+
+var compose = function compose(f, g) {
+  return function (x) {
+    return f(g(x));
+  };
+};
+var composeN = function composeN() {
+  for (var _len2 = arguments.length, fns = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {if (window.CP.shouldStopExecution(2)){break;}
+    fns[_key2] = arguments[_key2];
+  }
+window.CP.exitedLoop(2);
+
+
+  return function () {
+    for (var _len3 = arguments.length, args = Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {if (window.CP.shouldStopExecution(3)){break;}
+      args[_key3] = arguments[_key3];
+    }
+window.CP.exitedLoop(3);
+
+
+    return fns.reverse().reduce(function (x, f) {
+      return f.apply(f, [].concat(x));
+    }, args);
+  };
+};
+	</script>
 </body>
 </html>

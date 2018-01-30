@@ -1,1 +1,85 @@
 
+.txt {
+  position: relative;
+  width: max-content;
+  font-size: 4rem;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: arial, sans-serif;
+  color: yellow;
+}
+
+.txt:before,
+.txt:after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  transition: .3s;
+}
+
+.txt:before {
+  clip: rect(.5em auto 1.5em auto);
+  animation: before-clip 2s linear infinite;
+}
+
+.txt:after {
+  clip: rect(0 auto .5em auto);
+  animation: after-clip 2s linear infinite;
+}
+
+@keyframes before-clip {
+  0%{
+    transform: translateX(0);
+  }
+
+  3% {
+    transform: translateX(-.1em);
+  }
+
+  6% {
+    transform: translateX(.1em);
+  }
+
+  9% {
+    transform: translateX(-.1em);
+  }
+
+  12% {
+    transform: translateX(.1em);
+  }
+
+  15% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes after-clip {
+  0%{
+    transform: translateX(0);
+  }
+
+  3% {
+    transform: translateX(.1em);
+  }
+
+  6% {
+    transform: translateX(-.1em);
+  }
+
+  9% {
+    transform: translateX(.1em);
+  }
+
+  12% {
+    transform: translateX(-.1em);
+  }
+
+  15% {
+    transform: translateX(0);
+  }
+}

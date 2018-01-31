@@ -1803,7 +1803,7 @@ body[data-theme="theme-8"] .button.black{color: #fff;}
 .teaser-logo{text-align: center; padding: 20px 0;}
 .teaser-logo .logo{display: inline-block;}
 .teaser-logo .logo img{display: block; max-height: 40px;}
-.teaser-content{background: transparent;margin-left: 660px; text-align: center;}
+.teaser-content{background: transparent; text-align: center;}
 .teaser-title{font-size: 48px; line-height: 48px; margin-bottom: 11px; color: #262626; text-transform: uppercase; font-weight: 700; font-family: 'bold', sans-serif;}
 .teaser-description{font-size: 15px; line-height: 22px; color: #b6b6b6; max-width: 560px; margin: 0 auto; margin-bottom: 35px;}
 .teaser-date{margin-bottom: 55px;}

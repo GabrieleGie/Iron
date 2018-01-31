@@ -2061,13 +2061,34 @@ _:-ms-input-placeholder, :root .type-2.block .image-block .bg {position: absolut
 
 
 /*------------responsive----------------------*/
-@media (max-width: 1680px) {
-	.block.type-2 .image-block:first-child {
-    left: 0;
-    right: auto;
-    width: 50%;
-    height: 85%;
+
+@media screen and (max-width: 1920px) , screen and (max-height: 1080px) {
+#logo {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 42px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-top: -5px;
 }
+.type-1-text article.table {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-top: 120px !important;
+}
+	.h2 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 20px !important;
+}
+	.h1 {
+    font-size: 50px;
+    margin-bottom: 40px !important;
+}
+	
 }
 
 @media screen and (max-width: 1680px) , screen and (max-height: 1050px) {

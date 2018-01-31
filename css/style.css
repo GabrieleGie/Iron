@@ -495,7 +495,7 @@ footer{background: #1b1b1b; position: relative;}
     background-position: center top;
     z-index: 1;
 }
-.block.type-5 .img-wrap{position: relative; float: left; width: 100%; height:700px; text-align: center; margin-top: -110px;}
+.block.type-5 .img-wrap{position: relative; float: left; width: 100%; height:700px; text-align: center; margin-top: -100px; margin-left: 150px;}
 .block.type-5 .img-wrap-move
 {
 	/*position: relative; float: left; width: 100%;*/

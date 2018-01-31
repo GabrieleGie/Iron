@@ -2058,3 +2058,117 @@ _:-ms-input-placeholder, :root .type-2.block .image-block .bg {position: absolut
 @media (max-width: 767px) {
     .back-to-top{width: 40px; line-height: 40px;}
 }
+
+
+/*------------responsive----------------------*/
+@media (max-width: 1680px) {
+	.block.type-2 .image-block:first-child {
+    left: 0;
+    right: auto;
+    width: 50%;
+    height: 85%;
+}
+}
+
+@media screen and (max-width: 1680px) , screen and (max-height: 1050px) {
+	.block.type-2 .image-block:first-child {
+    left: 0;
+    right: auto;
+    width: 50%;
+    height: 85%;
+}
+}
+
+@media screen and (max-width: 1600px) , screen and (max-height: 900px) {
+.type-1-text article.table {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-top: 60px !important;
+}
+.block.type-2 .image-block:first-child {
+    left: 0;
+    right: auto;
+    width: 50%;
+    height: 80%;
+}	
+}
+
+@media screen and (max-width: 1440px) , screen and (max-height: 900px) {
+.type-1-text article.table {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-top: 80px !important;
+}
+	.txt {
+    position: relative;
+    font-size: 3.5rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffd400;
+}
+	
+	.h1 {
+    font-size: 50px;
+    margin-bottom: 40px !important;
+}	
+}
+
+@media screen and (max-width: 1366px) , screen and (max-height: 768px) {
+.txt {
+    position: relative;
+    font-size: 3rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffd400;
+}
+	.h1 {
+    font-size: 40px;
+    margin-bottom: 40px !important;
+}
+	.page-tagline .title {
+    font-family: 'black';
+    font-size: 40px;
+    color: #020202 !important;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+    position: relative;
+}
+	
+.type-1-text article.table {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-top: 120px;
+}
+	.h2 {
+    font-size: 46px;
+    line-height: 46px;
+    margin-bottom: 20px !important;
+}
+	.block.type-2 .image-block {
+    position: absolute;
+    height: 65%;
+    right: 0;
+    top: 0;
+    width: 50%;
+    background-size: cover;
+    background-position: center top;
+    z-index: 1;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+

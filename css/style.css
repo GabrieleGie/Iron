@@ -2192,6 +2192,43 @@ _:-ms-input-placeholder, :root .type-2.block .image-block .bg {position: absolut
 	
 }
 
+@media screen and (max-width: 1280px) , screen and (max-height: 960px) {
+#logo img {
+    position: relative;
+    float: left;
+    width: 175px !important;
+    height: 90px !important;
+}
+	#logo {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    margin-top: 42px;
+    display: inline-block;
+    vertical-align: top;
+    /* margin-right: 20px; */
+    margin-top: 10px;
+}
+.block.type-2 .image-block:first-child {
+    left: 0;
+    right: auto;
+    width: 50%;
+    height: 65%;
+}
+}
+
+@media screen and (max-width: 800px) , screen and (max-height: 600px) {
+#logo {
+    position: relative;
+    float: left;
+    margin-top: 42px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 60px !important;
+}
+}
+
+
 
 
 

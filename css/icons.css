@@ -1,0 +1,11 @@
+.wp-icons {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: animate 4000ms ease-in forwards infinite;
+}
+
+@keyframes animate {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

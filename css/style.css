@@ -2062,7 +2062,7 @@ _:-ms-input-placeholder, :root .type-2.block .image-block .bg {position: absolut
 
 /*------------responsive----------------------*/
 
-@media screen and (min-width: 1920px) , screen and (min-height: 1080px) {
+@media screen and (min-width: 1900px) , screen and (min-height: 1070px) {
 #logo {
     position: relative;
     float: left;

@@ -2062,7 +2062,7 @@ _:-ms-input-placeholder, :root .type-2.block .image-block .bg {position: absolut
 
 /*------------responsive----------------------*/
 
-@media screen and (max-width: 1920px) , screen and (max-height: 1080px) {
+@media screen and (min-width: 1920px) , screen and (min-height: 1080px) {
 #logo {
     position: relative;
     float: left;
@@ -2087,6 +2087,12 @@ _:-ms-input-placeholder, :root .type-2.block .image-block .bg {position: absolut
 	.h1 {
     font-size: 50px;
     margin-bottom: 40px !important;
+}
+	#logo img {
+    position: relative;
+    float: left;
+    width: 250px !important;
+    height: 120px !important;
 }
 	
 }

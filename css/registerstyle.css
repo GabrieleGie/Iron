@@ -97,6 +97,7 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   transition: .2s ease-in-out;
+  color:black;
 }
 
 #inputContainer input:valid + #inputLabel {

@@ -136,14 +136,14 @@
 
 .ring1{
   color: #ffffff;
-  animation: rotateAnimate1 $majorSpeed infinite reverse linear;
+  animation: rotateAnimate1 16s infinite reverse linear;
   .particle{
     animation: rotateAnimate1 2s infinite linear;
   }
 }
 .ring2{
   color: #f7e140;
-  animation: rotateAnimate1 $majorSpeed infinite reverse linear;
+  animation: rotateAnimate1 16s infinite reverse linear;
   .particle{
     margin-top: 15px;
     margin-left: 15px;
@@ -157,7 +157,7 @@
 }
 .ring3{
   color: #000;
-  animation: rotateAnimate1 $majorSpeed infinite reverse linear;
+  animation: rotateAnimate1 16s infinite reverse linear;
   .particle{
     margin-top: 30px;
     margin-left: 30px;
